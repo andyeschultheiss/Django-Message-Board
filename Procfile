@@ -1,1 +1,1 @@
-web: gunicorn tutorialproject.tutorialproject.wsgi:application --log-file - --log-level debug
+web: waitress-serve --port=$PORT tutorialproject.wsgi:application
