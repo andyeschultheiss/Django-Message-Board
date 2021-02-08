@@ -1,5 +1,3 @@
-rds/tests/test_view_topic_posts.py
-
 from django.contrib.auth.models import User
 from django.test import TestCase
 from django.urls import resolve, reverse
